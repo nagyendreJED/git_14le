@@ -15,7 +15,7 @@ git config --global user.name
 
 hibánál:
 git pull origin master //de elég lenne a git pull is
-git pull origin master --allow-unrelated-histories FONTOSS!!!
+git pull origin master --allow-unrelated-histories EZ NAGYON FONTOSS!!!
 
 repo törlés
 rm ./*
