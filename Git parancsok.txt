@@ -1,0 +1,52 @@
+git init
+git status
+touch text.txt
+--
+git add filenév //szpadra küldés =STAGE
+git commit -m "üzenet"
+
+git log
+git remote add origin URL
+git push origin master / main
+git push -u origin master -> ezután már csak git push kell csak!
+
+git config --global user.email   //megadáshoz "email cím"
+git config --global user.name
+
+hibánál:
+git pull origin master //de elég lenne a git pull is
+git pull origin master --allow-unrelated-histories
+
+repo törlés
+rm ./*
+vagy
+rm -rf ./*
+
+újra létrahozom, de nem a git init és a git remote párossal, hanem
+klónozás: 
+git clone URLgit
+
+git diff HEAD 
+git diff filevév//amíg nincs szpadon
+git diff --stage
+git diff --cached filenev
+
+git reset //le a szpadrol
+git checkout -- a.txt  //vissza változtatások
+
+
+git branch NÉV -új létrehozás
+git branch -ellenőrzöm melyiken vagyok
+git checkout NÉV - átlépek a megadott branch-re
+
+most egy file törlés, ha kell -f v -rf 
+ekkor a szpadra kell tenni
+commitolni kell és tényleg eltűnik 
+vissza a Masterre >> ott megvan
+
+git merge NÉV -összefűzés
+git branch -d NÉV branch törlés
+
+
+
+
